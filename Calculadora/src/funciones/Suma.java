@@ -13,7 +13,7 @@ public class Suma extends Operacion {
 
     @Override
     public double doOperacion(double anterior, double posterior) {
-        return anterior+posterior;
+        return anterior-posterior;
     }
 
     @Override
